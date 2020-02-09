@@ -1,0 +1,85 @@
+.project-list {
+    min-height: 77vh;
+
+    .project-empty {
+        min-height: 77vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #222;
+        font-weight: 700;
+
+        strong {
+            font-style: italic;
+            font-weight: 900;
+            color: #444;
+        }
+    }
+}
+
+.project {
+    margin: 0 10%;
+    
+    .project-icon {
+        font-size: 24px;
+    }
+
+    .header-project {
+        background: rgb(39,119,190);
+        background: linear-gradient(180deg, rgba(39,119,190,1) 30%, rgba(28,64,176,1) 100%);
+        padding: 1vh 0;
+
+        .calendar-icon {
+            color: rgb(44, 44, 44);
+            display: flex;
+            justify-content: center;
+        }
+
+        .title-project {
+            font-size: 18px;
+            color: #fff;
+            font-weight: 900;
+            margin: 0 2vh;
+            padding: 0;
+        }
+
+        .edit-icon {
+            font-size: 20px;
+            color: rgb(185, 185, 185);
+            border-right: 1px solid rgb(185, 185, 185);
+            padding-right: 1vh;
+            cursor: pointer;
+        }
+
+        .delete-icon {
+            font-size: 20px;
+            color: rgb(185, 185, 185);
+            cursor: pointer;
+        }
+    }
+
+    .subheader-project {
+        background: rgb(159,158,158);
+        background: linear-gradient(150deg, rgba(159,158,158,1) 30%, rgba(120,120,120,1) 100%);
+        padding: 1vh 0;
+
+        .icon-plus {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+
+        .add-task {
+            padding: 0 2vh;
+        }
+    }
+
+    .body-project {
+        background-color: #fff;
+
+        .empty-task {
+            padding: 3vh;
+        }
+    }
+}
